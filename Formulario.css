@@ -13,7 +13,7 @@
     margin-left: 10%;
 }
 #check{
-    border: 0;
+    display: inline-block;
 }
 fieldset{
     border: 0;
@@ -64,6 +64,7 @@ fieldset.grupo.campo{
         }
         campo input :focus, .campo select:focus, .campo textarea:focus{
             background: #E0E0f8;
+
         }
         .botao{
             font-size: 1.2em;
@@ -80,14 +81,14 @@ fieldset.grupo.campo{
             margin-right: -50%;
             transform: translate(-50%, -50%);
         }
-        .botao hover{
+        .botao:hover{
             background: #ccbbff;
             box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
             text-shadow: none;
         }
 
         .botao, select{
-            cursor: pointer
+            cursor: pointer;
         }
 
 
